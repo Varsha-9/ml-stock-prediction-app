@@ -6,24 +6,44 @@ The project includes a **Streamlit web app** for making predictions interactivel
 
 ##  Project Structure
 
-├── .venv/ # Virtual environment├── data/
+├── .venv/ # Virtual environment
+
+├── data/
+
 │ ├── raw/ # Raw stock price data (CSV files)
+
 │ ├── processed/ # Processed/cleaned data
+
 ├── images/ # Plots (stock price trends, correlation heatmaps, etc.)
+
 ├── models/
+
 │ └── rf_model.pkl # Trained Random Forest model
+
 ├── src/ # Source code
+
 │ ├── data_collection.py
+
 │ ├── data_cleaning.py
+
 │ ├── eda.py
+
 │ ├── feature_engineering.py
+
 │ ├── model_training.py
+
 │ ├── prediction_system.py
+
 │ ├── train_test_split.py
+
 │ └── data_visualization.py
+
 ├── app.py # Streamlit web app
+
 ├── requirements.txt # Project dependencies
+
 ├── README.md # Project documentation
+
 └── .gitignore # Files/folders ignored by Git
 
 

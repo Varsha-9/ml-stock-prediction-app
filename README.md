@@ -6,8 +6,7 @@ The project includes a **Streamlit web app** for making predictions interactivel
 
 ##  Project Structure
 
-├── .venv/ # Virtual environment
-├── data/
+├── .venv/ # Virtual environment├── data/
 │ ├── raw/ # Raw stock price data (CSV files)
 │ ├── processed/ # Processed/cleaned data
 ├── images/ # Plots (stock price trends, correlation heatmaps, etc.)
